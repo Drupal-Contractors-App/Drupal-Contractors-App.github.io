@@ -28,6 +28,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/api'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -40,6 +41,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/axios',
   ],
   /*
   ** Build configuration
@@ -50,5 +52,8 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  env: {
+    channel: 'CUN3PEEAY'
   }
 }

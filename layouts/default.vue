@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'App',
+  components: {
+  },
+  created: function() {
+    this.$store.dispatch('loadUsers', { channel: process.env.channel })
+  },
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

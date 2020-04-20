@@ -1,7 +1,7 @@
 {
   "name": "drupalcontractors",
   "version": "1.0.0",
-  "description": "Drupal taff augmentation",
+  "description": "Drupal staff augmentation",
   "author": "Albert Volkman",
   "private": true,
   "scripts": {
@@ -11,9 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.9.7",
+    "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0",
-    "bootstrap": "^4.1.3"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {}
 }
