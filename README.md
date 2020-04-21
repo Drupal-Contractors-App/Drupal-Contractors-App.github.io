@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/Drupal-Contractors-App/Drupal-Contractors-App.github.io.svg?branch=develop)](https://travis-ci.org/Drupal-Contractors-App/Drupal-Contractors-App.github.io)
+
 # drupalcontractors
 
-> Drupal taff augmentation
+> Drupal staff augmentation
 
 ## Build Setup
 
