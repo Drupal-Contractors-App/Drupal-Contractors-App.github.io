@@ -8,9 +8,9 @@
         :key="user.id"
       >
         <b-card
-          :title="user.profile.real_name"
-          :img-src="user.profile.image_512"
-          :img-alt="user.profile.real_name"
+          :title="user.name"
+          :img-src="user.image"
+          :img-alt="user.name"
           img-top
           tag="article"
           style="max-width: 20rem;"
