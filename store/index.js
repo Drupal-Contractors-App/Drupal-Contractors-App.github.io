@@ -10,7 +10,7 @@ export const mutations = {
 
 export const actions = {
   async loadUsers({ commit }, channel) {
-    const profiles = await this.$api.$get('profile', { params: channel })
+    const profiles = await this.$api.$get('profiles', { params: channel })
 
     commit("setUsers", { users: profiles })
   }
